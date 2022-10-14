@@ -18,13 +18,18 @@ const Header = () => {
         <Fragment>
             <nav>
                 <div className="flex justify-end gap-7 text-lg py-5">
-                    {/* <div className="absolute left-0 ml-5">
-                        <div>Ibrahim Ghasia</div>
-                    </div> */}
-                    <div>
+                    <div className="absolute left-0 ml-5 text-left">
                         <Link href="/">
+                            <a className="group dark:text-white">
+                                <span className="text-xl font-semibold">Ibrahim Ghasia</span> <br />
+                                <span className="text-lg">Devloper</span>
+                            </a>
+                        </Link>
+                    </div>
+                    <div>
+                        <Link href="/about">
                             <a className="text-lg font-semibold group dark:text-white hover:text-pink_ dark:hover:text-pink_ transition-all duration-500">
-                                About Me
+                                About
                                 <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-pink_"></span>
                             </a>
                         </Link>
@@ -51,7 +56,7 @@ const Header = () => {
                     <div>
                         <Link href="/">
                             <a className="text-lg font-semibold group dark:text-white hover:text-darkblue_ dark:hover:text-darkblue_ transition-all duration-500">
-                                Certificate
+                                Certificates
                                 <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-darkblue_"></span>
                             </a>
                         </Link>

@@ -2,23 +2,19 @@ import { Fragment } from "react"
 
 const Card = (props) => {
     return (
-        <Fragment>
-            <div class="max-w-sm bg-white dark:bg-gray-800 dark:border-gray-700 transitaion-all duration-500 hover:p-5 mt-10 ease-out">
-                <a href="#">
+        <Fragment className="">
+            <figure className="relative max-w-2xl mx-5 mb-10 transition-all duration-300 cursor-pointer filter p-3">
+                <a href={props.link}>
                     <img
-                        class="rounded-t-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-                        src="https://images.unsplash.com/photo-1664997430789-b32d7653ff12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                        alt={props.title}
+                        className="rounded-lg transition-all duration-300 hover:p-2 hover:rounded-2xl"
+                        src={props.img_source}
+                        alt="image description"
                     />
                 </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            {props.title}
-                        </h5>
-                    </a>
-                </div>
-            </div>
+                <span className="absolute bottom-6 px-4 md:text-3xl text-white font-bold bg-pink_ border-0 rounded-2xl">
+                    <p>{props.title}</p>
+                </span>
+            </figure>
         </Fragment>
     )
 }
