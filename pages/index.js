@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Typewriter } from "react-simple-typewriter"
 
 export default function Home() {
     return (
@@ -14,11 +15,17 @@ export default function Home() {
 
             <div className="mx-10 md:ml-20 mt-5">
                 <p className="md:text-2xl text-gray-700 dark:text-white md:mx-20 text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit erat eget
-                    ante bibendum fermentum. Integer consequat auctor eros at rutrum. In sodales
-                    luctus porta. Nunc lobortis metus a ligula condimentum posuere. Nullam id velit
-                    ullamcorper, vulputate enim a, posuere nunc. Morbi aliquam lacinia magna, nec
-                    cursus lectus suscipit id.
+                    <Typewriter
+                        words={[
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit erat ege tante bibendum fermentum. Integer consequat auctor eros at rutrum. In sodales luctus porta. Nunc lobortis metus a ligula condimentum posuere. Nullam id velit ullamcorper, vulputate enim a, posuere nunc. Morbi aliquam lacinia magna, nec cursus lectus suscipit id. ",
+                        ]}
+                        loop={0}
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={60}
+                        deleteSpeed={60}
+                        delaySpeed={4000}
+                    />
                 </p>
             </div>
 
