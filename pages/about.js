@@ -1,4 +1,5 @@
 import { Typewriter } from "react-simple-typewriter"
+import Footer from "../components/Footer"
 export default function Home() {
     return (
         <div className="bg-gray-200 dark:bg-gray-900">
@@ -138,6 +139,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

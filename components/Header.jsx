@@ -18,7 +18,7 @@ const Header = () => {
         <Fragment>
             <nav>
                 <div className="grid ml-5 grid-cols-2 md:flex md:justify-end gap-3 md:gap-7 text-lg py-5">
-                    <div className="md:absolute left-0 md:ml-5 text-left">
+                    <div className="md:absolute left-0 md:ml-16 text-left">
                         <Link href="/">
                             <a className="group dark:text-white">
                                 <span className="text-xl font-semibold">Ibrahim Ghasia</span> <br />

@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Card from "../components/UI/Card"
 import { Typewriter } from "react-simple-typewriter"
+import Footer from "../components/Footer"
 
 export default function Home() {
     return (
@@ -43,6 +44,7 @@ export default function Home() {
                     link="https://za-engineering.vercel.app/"
                 />
             </div>
+            <Footer />
         </div>
     )
 }
