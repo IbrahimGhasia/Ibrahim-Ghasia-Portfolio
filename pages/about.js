@@ -30,7 +30,7 @@ export default function Home() {
                         </h3>
                         <p className="text-md md:text-xl dark:text-white mt-5 md:mt-10">
                             You can send me a mail for any help / enquiry
-                            <span className="transitaion-all duration-500 hover:text-3xl cursor-pointer">
+                            <span className="transitaion-all duration-500 hover:text-3xl hover:text-skyblue_ cursor-pointer">
                                 <a> here</a>
                             </span>
                         </p>
@@ -42,7 +42,7 @@ export default function Home() {
                         <p className="text-md md:text-xl dark:text-white mt-5 md:mt-10">
                             I am looking for an internship, if you feel that I am a right fit for
                             you, I would love to work with you. You can find my CV
-                            <span className="transitaion-all duration-500 hover:text-3xl cursor-pointer">
+                            <span className="transitaion-all duration-500 hover:text-3xl hover:text-skyblue_ cursor-pointer">
                                 <a> here</a>
                             </span>
                         </p>
@@ -52,7 +52,10 @@ export default function Home() {
                         </h3>
                         <ul className="mt-5 md:mt-10">
                             <li className="mt-5">
-                                <a className="md:text-xl font-semibold dark:text-white cursor-pointer">
+                                <a
+                                    href="#"
+                                    className="md:text-xl font-semibold dark:text-white cursor-pointer"
+                                >
                                     - Instagram
                                 </a>
                             </li>

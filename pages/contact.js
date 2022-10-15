@@ -45,15 +45,15 @@ export default function Home() {
                         </p>
 
                         <div className="mt-10">
-                            <p className="text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
+                            <p className="text-xl md:text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
                                 📞 Phone - 8866685052
                             </p>
 
-                            <p className="text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
+                            <p className="text-xl md:text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
                                 ✉️ Email - ibrahim.ghasia@gmail.com
                             </p>
 
-                            <p className="text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
+                            <p className="text-xl md:text-2xl dark:text-white border-0 shadow-2xl text-left p-2 rounded-2xl mt-5 duration-300 hover:ml-10">
                                 📍 Location - Surat, India
                             </p>
 
@@ -78,12 +78,12 @@ export default function Home() {
                     </div>
 
                     <form ref={form} onSubmit={sendEmail} className="mx-auto">
-                        <div className="mt-20 border-0 rounded-2xl border-gray-300 p-5 md:p-10 shadow-2xl bg-gray-200 dark:bg-gray-300">
+                        <div className="mr-5 mt-20 border-0 rounded-2xl border-gray-300 p-5 md:p-10 shadow-2xl bg-gray-200 dark:bg-gray-300">
                             <div class="relative z-0 mt-3">
                                 <input
                                     type="text"
                                     id="name"
-                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_name"
                                 />
@@ -99,7 +99,7 @@ export default function Home() {
                                 <input
                                     type="email"
                                     id="email"
-                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_email"
                                 />
@@ -121,8 +121,9 @@ export default function Home() {
                                 <textarea
                                     id="message"
                                     rows="4"
-                                    class="block p-2.5 w-72 md:w-96 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    class="block p-2.5 w-72 md:w-96 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Your message..."
+                                    name="message"
                                 ></textarea>
                             </div>
 
