@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter"
 import Footer from "../components/Footer"
 export default function Home() {
     return (
-        <div>
+        <div className="">
             <div className="grid md:grid-cols-3">
                 <div className="mx-5 md:ml-20 mt-40 col-span-2">
                     <h1 className="text-3xl md:text-7xl font-semibold group text-skyblue_ dark:text-yellow_ hover:text-darkblue_ dark:hover:text-green_ transition-all duration-300">
@@ -25,9 +25,6 @@ export default function Home() {
                 </div>
 
                 <div className="mt-20 mx-auto">
-                    <p className="text-xl font-semibold text-skyblue_ dark:text-yellow_ text-center pb-2">
-                        That's Me ⤵️
-                    </p>
                     <img
                         src="/Me.jpg"
                         className="mb-20 h-96 w-80 rounded-2xl border-2 border-gray-400 dark:border-gray-700 p-3"
