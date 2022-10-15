@@ -25,13 +25,13 @@ export default function Home() {
                 </div>
 
                 <div className="mt-20 mx-auto pb-20">
+                    <p className="text-xl font-semibold text-skyblue_ dark:text-yellow_ text-center pb-2">
+                        That's Me ⤵️
+                    </p>
                     <img
                         src="/Me.jpg"
                         className="h-96 w-80 rounded-2xl border-2 border-gray-400 dark:border-gray-700 p-3"
                     />
-                    <p className="text-xl font-semibold text-skyblue_ dark:text-yellow_ text-center pt-2">
-                        ☝🏼 That's Me
-                    </p>
                 </div>
             </div>
 
