@@ -54,7 +54,7 @@ const Header = () => {
                     </div>
 
                     <div>
-                        <Link href="/">
+                        <Link href="/certificate">
                             <a className="text-lg font-semibold group dark:text-white hover:text-darkblue_ dark:hover:text-darkblue_ transition-all duration-500">
                                 Certificates
                                 <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-darkblue_"></span>
@@ -63,7 +63,7 @@ const Header = () => {
                     </div>
 
                     <div>
-                        <Link href="/">
+                        <Link href="/contact">
                             <a className="text-lg font-semibold group dark:text-white hover:text-yellow_ dark:hover:text-yellow_ transition-all duration-500">
                                 Contact
                                 <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-yellow_"></span>

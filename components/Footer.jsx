@@ -1,12 +1,12 @@
 const Footer = () => {
     return (
         <div>
-            <footer class="bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <footer class="bg-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900">
+                <span class="ml-5 text-sm text-gray-500 sm:text-center dark:text-gray-400">
                     © 2022 Ibrahim Ghasia. All Rights Reserved.
                 </span>
 
-                <div class="flex mt-4 space-x-6 md:justify-center md:mt-0">
+                <div class="ml-5 flex mt-4 space-x-6 md:justify-center md:mt-0">
                     <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg
                             class="w-5 h-5"

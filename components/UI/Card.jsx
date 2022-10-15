@@ -3,7 +3,7 @@ import { Fragment } from "react"
 const Card = (props) => {
     return (
         <Fragment className="">
-            <figure className="relative max-w-2xl mx-5 mb-10 transition-all duration-300 cursor-pointer filter p-3 hover:p-2 hover:rounded-2xl">
+            <figure className="relative max-w-2xl mx-5 mb-10 cursor-pointer filter duration-500 border-0 rounded-2xl hover:border-gray-400 hover:shadow-2xl dark:hover:border-white hover:translate-y-3">
                 <a href={props.link}>
                     <img className="rounded-lg " src={props.img_source} alt="image description" />
                 </a>
