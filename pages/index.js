@@ -24,7 +24,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="mt-20 mx-auto pb-20">
+                <div className="mt-20 mx-auto pb-28">
                     <p className="text-xl font-semibold text-skyblue_ dark:text-yellow_ text-center pb-2">
                         That's Me ⤵️
                     </p>
