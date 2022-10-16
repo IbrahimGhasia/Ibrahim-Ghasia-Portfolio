@@ -32,7 +32,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="mt-10 md:mt-20 mx-auto">
+                <div className="mt-10 md:mt-40 mx-auto">
                     <img
                         src="/Me.jpg"
                         className="mb-20 h-96 w-80 rounded-2xl border-2 border-gray-400 dark:border-gray-700 p-3"
