@@ -20,8 +20,9 @@ export default function Home() {
 
             <div className="grid md:grid-cols-1 mx-10 place-items-center md:mt-10 pb-10">
                 <Card img_source="/WebDev.jpg" />
+                <Card img_source="/GDSC_Lead_Certi_1.jpg" />
                 <Card img_source="/Cloud.jpg" />
-                <Card img_source="/lottery.webp" />
+                <Card img_source="/1stRank_Certi_1.jpg" />
             </div>
         </div>
     )

@@ -45,7 +45,7 @@ const Header = () => {
                     </div>
 
                     <div>
-                        <Link href="/">
+                        <Link href="/experience">
                             <a className="text-lg font-semibold group dark:text-white hover:text-skyblue_ dark:hover:text-skyblue_ transition-all duration-500">
                                 Experience
                                 <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-skyblue_"></span>
