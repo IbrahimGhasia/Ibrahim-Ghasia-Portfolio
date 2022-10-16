@@ -29,9 +29,9 @@ export default function Home() {
                             Contact
                         </h3>
                         <p className="text-md md:text-xl dark:text-white mt-5 md:mt-10">
-                            You can send me a mail for any help / enquiry
-                            <span className="transitaion-all duration-500 hover:text-3xl hover:text-skyblue_ cursor-pointer">
-                                <a> here</a>
+                            You can send me a mail for any help / enquiry at
+                            <span className="transitaion-all duration-500 hover:text-skyblue_ cursor-pointer">
+                                &nbsp;ibrahim.ghasia@gmail.com
                             </span>
                         </p>
 
@@ -42,8 +42,10 @@ export default function Home() {
                         <p className="text-md md:text-xl dark:text-white mt-5 md:mt-10">
                             I am looking for an internship, if you feel that I am a right fit for
                             you, I would love to work with you. You can find my CV
-                            <span className="transitaion-all duration-500 hover:text-3xl hover:text-skyblue_ cursor-pointer">
-                                <a> here</a>
+                            <span className="transitaion-all duration-500 hover:text-skyblue_ cursor-pointer">
+                                <a href="https://drive.google.com/file/d/1XRde8yxo8qDWb77s0mxM8RSNpz0knEKk/view?usp=sharing">
+                                    &nbsp;here
+                                </a>
                             </span>
                         </p>
 

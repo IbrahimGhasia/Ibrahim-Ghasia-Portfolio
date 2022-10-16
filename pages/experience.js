@@ -32,7 +32,7 @@ export default function Home() {
                     </div>
 
                     <div className="text-left mr-5 md:mx-96 px-5 md:px-10 py-5 border-0 rounded-2xl duration-500 hover:shadow-2xl hover:translate-y-3 mt-10 mb-10">
-                        <span className="text-xl text-gray-500">2022 - Present</span>
+                        <span className="text-xl text-gray-500">2022 - 2020</span>
                         <h1 className="text-3xl md:text-5xl text-darkblue_ dark:text-green_ font-semibold">
                             Outgoing Global Volueenter
                         </h1>

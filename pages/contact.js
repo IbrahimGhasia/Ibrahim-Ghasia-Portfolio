@@ -9,7 +9,6 @@ export default function Home() {
 
     const notify = () => {
         setSuccess("true")
-
         if (success === "true") {
             toast("Mail Sent Successfully", {
                 duration: 4000,
