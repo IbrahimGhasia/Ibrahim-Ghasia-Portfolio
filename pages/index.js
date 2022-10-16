@@ -16,8 +16,8 @@ export default function Home() {
 
                     <div className="mx-10 md:ml-20 mt-5">
                         <p className="text-lg md:text-2xl text-gray-700 dark:text-white md:mx-10 text-left">
-                            "I'm a software developer who enjoys building creative products.
-                            Currenlty working on Blockchain and Web3. ",
+                            I'm a software developer who enjoys building creative products.
+                            Currenlty working on Blockchain and Web3.
                         </p>
                     </div>
 
