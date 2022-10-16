@@ -78,7 +78,7 @@ const Navigation = () => {
                             <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
                                 <li>
                                     <Link href="/about">
-                                        <a className="text-lg md:text-2xl font-semibold group dark:text-white hover:text-pink_ dark:hover:text-pink_ transition-all duration-500">
+                                        <a className="text-lg md:text-xl font-semibold group dark:text-white hover:text-pink_ dark:hover:text-pink_ transition-all duration-500">
                                             About
                                             <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-pink_"></span>
                                         </a>
@@ -86,7 +86,7 @@ const Navigation = () => {
                                 </li>
                                 <li>
                                     <Link href="/project">
-                                        <a className="text-lg md:text-2xl font-semibold group dark:text-white hover:text-green_ dark:hover:text-green_ transition-all duration-500">
+                                        <a className="text-lg md:text-xl font-semibold group dark:text-white hover:text-green_ dark:hover:text-green_ transition-all duration-500">
                                             Project
                                             <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-green_"></span>
                                         </a>
@@ -94,7 +94,7 @@ const Navigation = () => {
                                 </li>
                                 <li>
                                     <Link href="/experience">
-                                        <a className="text-lg md:text-2xl font-semibold group dark:text-white hover:text-skyblue_ dark:hover:text-skyblue_ transition-all duration-500">
+                                        <a className="text-lg md:text-xl font-semibold group dark:text-white hover:text-skyblue_ dark:hover:text-skyblue_ transition-all duration-500">
                                             Experience
                                             <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-skyblue_"></span>
                                         </a>
@@ -102,7 +102,7 @@ const Navigation = () => {
                                 </li>
                                 <li>
                                     <Link href="/certificate">
-                                        <a className="text-lg md:text-2xl font-semibold group dark:text-white hover:text-orange-500 dark:hover:text-orange-500 transition-all duration-500">
+                                        <a className="text-lg md:text-xl font-semibold group dark:text-white hover:text-orange-500 dark:hover:text-orange-500 transition-all duration-500">
                                             Certificates
                                             <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-orange-500"></span>
                                         </a>
@@ -111,7 +111,7 @@ const Navigation = () => {
 
                                 <li>
                                     <Link href="/contact">
-                                        <a className="text-lg md:text-2xl font-semibold group dark:text-white hover:text-yellow_ dark:hover:text-yellow_ transition-all duration-500">
+                                        <a className="text-lg md:text-xl font-semibold group dark:text-white hover:text-yellow_ dark:hover:text-yellow_ transition-all duration-500">
                                             Contact
                                             <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-yellow_"></span>
                                         </a>
