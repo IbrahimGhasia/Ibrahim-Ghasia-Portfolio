@@ -16,21 +16,12 @@ export default function Home() {
 
                     <div className="mx-10 md:ml-20 mt-5">
                         <p className="text-lg md:text-2xl text-gray-700 dark:text-white md:mx-20 text-left">
-                            <Typewriter
-                                words={[
-                                    "I'm a software developer who enjoys building creative products. Currenlty working on Blockchain and Web3. ",
-                                ]}
-                                loop={0}
-                                cursor
-                                cursorStyle="_"
-                                typeSpeed={100}
-                                deleteSpeed={60}
-                                delaySpeed={4000}
-                            />
+                            "I'm a software developer who enjoys building creative products.
+                            Currenlty working on Blockchain and Web3. ",
                         </p>
                     </div>
 
-                    <div className="ml-10 md:ml-40 mt-10 md:mt-20 md:mb-10">
+                    <div className="ml-10 md:ml-40 mt-10 md:mt-20">
                         <Link href="/about">
                             <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 hover:mt-2 transition-all duration-500">
                                 <span class="relative px-10 py-3 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg">
