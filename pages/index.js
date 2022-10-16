@@ -15,7 +15,7 @@ export default function Home() {
                     </h1>
 
                     <div className="mx-10 md:ml-20 mt-5">
-                        <p className="text-lg md:text-2xl text-gray-700 dark:text-white md:mx-20 text-justify">
+                        <p className="text-lg md:text-4xl text-gray-700 dark:text-white md:mx-20 text-left">
                             <Typewriter
                                 words={[
                                     "I'm a software developer who enjoys building creative products. Currenlty working on Blockchain and Web3. ",

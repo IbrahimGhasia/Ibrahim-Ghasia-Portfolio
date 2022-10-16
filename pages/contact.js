@@ -1,9 +1,41 @@
 import { Typewriter } from "react-simple-typewriter"
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
+import toast, { Toaster } from "react-hot-toast"
 
 export default function Home() {
     const form = useRef()
+    const [success, setSuccess] = useState("false")
+
+    const notify = () => {
+        setSuccess("true")
+
+        if (success === "true") {
+            toast("Mail Sent Successfully", {
+                duration: 4000,
+                position: "bottom-right",
+
+                // Styling
+                style: {},
+                className: "",
+
+                // Custom Icon
+                icon: "✅",
+
+                // Change colors of success/error/loading icon
+                iconTheme: {
+                    primary: "#000",
+                    secondary: "#fff",
+                },
+
+                // Aria
+                ariaProps: {
+                    role: "status",
+                    "aria-live": "polite",
+                },
+            })
+        }
+    }
 
     const sendEmail = (e) => {
         e.preventDefault()
@@ -86,6 +118,7 @@ export default function Home() {
                                     class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_name"
+                                    required
                                 />
                                 <label
                                     for="name"
@@ -102,6 +135,7 @@ export default function Home() {
                                     class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_email"
+                                    required
                                 />
                                 <label
                                     for="email"
@@ -124,6 +158,7 @@ export default function Home() {
                                     class="block p-2.5 w-72 md:w-96 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Your message..."
                                     name="message"
+                                    required
                                 ></textarea>
                             </div>
 
@@ -132,11 +167,13 @@ export default function Home() {
                                     type="submit"
                                     value="Send"
                                     class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
+                                    onClick={notify}
                                 >
                                     <span class="relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                                         Send Mail
                                     </span>
                                 </button>
+                                {success ? <Toaster /> : null}
                             </div>
                         </div>
                     </form>

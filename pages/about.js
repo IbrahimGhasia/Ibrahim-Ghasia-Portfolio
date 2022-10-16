@@ -17,7 +17,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <p className="mt-5 md:ml-5 text-lg md:text-4xl pr-10 dark:text-white leading-normal text-semibold">
+                    <p className="mt-5 md:ml-5 text-lg md:text-3xl pr-10 dark:text-white leading-normal text-semibold">
                         I'm a software developer that loves building creative products. Currenlty
                         working on Blockchain and Web3
                     </p>
@@ -53,24 +53,33 @@ export default function Home() {
                         <ul className="mt-5 md:mt-10">
                             <li className="mt-5">
                                 <a
-                                    href="#"
-                                    className="md:text-xl font-semibold dark:text-white cursor-pointer"
+                                    href="https://www.instagram.com/ibrahim.ghasia/"
+                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
                                 >
                                     - Instagram
                                 </a>
                             </li>
                             <li className="mt-5">
-                                <a className="md:text-xl font-semibold dark:text-white cursor-pointer">
+                                <a
+                                    href="https://www.linkedin.com/in/ibrahim-ghasia/"
+                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
+                                >
                                     - LinkedIn
                                 </a>
                             </li>
                             <li className="mt-5">
-                                <a className="md:text-xl font-semibold dark:text-white cursor-pointer">
+                                <a
+                                    href="https://github.com/IbrahimGhasia"
+                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
+                                >
                                     - Github
                                 </a>
                             </li>
                             <li className="mt-5">
-                                <a className="md:text-xl font-semibold dark:text-white cursor-pointer">
+                                <a
+                                    href="https://twitter.com/IbrahimGhasia"
+                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
+                                >
                                     - Twitter
                                 </a>
                             </li>
@@ -79,12 +88,11 @@ export default function Home() {
 
                     <div className="md:col-span-6">
                         <p className="text-lg md:text-2xl mx-4 mt-10  md:mx-10 dark:text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit
-                            erat eget ante bibendum fermentum. Integer consequat auctor eros at
-                            rutrum. In sodales luctus porta. Nunc lobortis metus a ligula
-                            condimentum posuere. Nullam id velit ullamcorper, vulputate enim a,
-                            posuere nunc. Morbi aliquam lacinia magna, nec cursus lectus suscipit
-                            id.
+                            Hi there, I am a Third year Computer Engineering student at Sarvajaik
+                            College of Engineering and Technology, Surat. I am currenlty Blockchain
+                            Lead member of Google Developer Student Club, SCET. I enjoy listing to
+                            music. I am also realy interested in planes. My dream is to fly a plane
+                            one day. ✈️
                         </p>
 
                         <div>
