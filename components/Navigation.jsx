@@ -83,7 +83,7 @@ const Navigation = () => {
                                             className="text-lg md:text-xl font-semibold group dark:text-white hover:text-pink_ dark:hover:text-pink_ transition-all duration-500"
                                         >
                                             About
-                                            <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-pink_"></span>
+                                            <span className="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-pink_"></span>
                                         </a>
                                     </Link>
                                 </li>
@@ -94,7 +94,7 @@ const Navigation = () => {
                                             className="text-lg md:text-xl font-semibold group dark:text-white hover:text-green_ dark:hover:text-green_ transition-all duration-500"
                                         >
                                             Project
-                                            <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-green_"></span>
+                                            <span className="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-green_"></span>
                                         </a>
                                     </Link>
                                 </li>
@@ -105,7 +105,7 @@ const Navigation = () => {
                                             className="text-lg md:text-xl font-semibold group dark:text-white hover:text-skyblue_ dark:hover:text-skyblue_ transition-all duration-500"
                                         >
                                             Experience
-                                            <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-skyblue_"></span>
+                                            <span className="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-skyblue_"></span>
                                         </a>
                                     </Link>
                                 </li>
@@ -116,7 +116,7 @@ const Navigation = () => {
                                             className="text-lg md:text-xl font-semibold group dark:text-white hover:text-orange-500 dark:hover:text-orange-500 transition-all duration-500"
                                         >
                                             Certificates
-                                            <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-orange-500"></span>
+                                            <span className="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-orange-500"></span>
                                         </a>
                                     </Link>
                                 </li>
@@ -128,24 +128,24 @@ const Navigation = () => {
                                             className="text-lg md:text-xl font-semibold group dark:text-white hover:text-yellow_ dark:hover:text-yellow_ transition-all duration-500"
                                         >
                                             Contact
-                                            <span class="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-yellow_"></span>
+                                            <span className="block max-w-0 group-hover:max-w-xs transition-all duration-500 h-1 bg-yellow_"></span>
                                         </a>
                                     </Link>
                                 </li>
                                 {/* <div className="float-right mt-0"> */}
                                 <li className="md:mr-40">
                                     <label
-                                        for="red-toggle"
-                                        class="inline-flex relative items-center mr-5 cursor-pointer"
+                                        htmlFor="red-toggle"
+                                        className="inline-flex relative items-center mr-5 cursor-pointer"
                                     >
                                         <input
                                             type="checkbox"
                                             value=""
                                             id="red-toggle"
-                                            class="sr-only peer"
+                                            className="sr-only peer"
                                         />
                                         <div
-                                            class="w-11 h-6 bg-gray-200 rounded-full dark:bg-gray-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-gray-800 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-300"
+                                            className="w-11 h-6 bg-gray-200 rounded-full dark:bg-gray-800 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-gray-800 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-300"
                                             onClick={() => {
                                                 theme === "dark"
                                                     ? setTheme("light")

@@ -43,7 +43,7 @@ export default function Home() {
                             I am looking for an internship, if you feel that I am a right fit for
                             you, I would love to work with you. You can find my CV
                             <span className="transitaion-all duration-500 hover:text-skyblue_ cursor-pointer">
-                                <a href="https://drive.google.com/file/d/1XRde8yxo8qDWb77s0mxM8RSNpz0knEKk/view?usp=sharing">
+                                <a href="https://drive.google.com/file/d/1IrsxIUAmpyhsEDpWNwbxUNUpSJ9tqgX5/view?usp=sharing">
                                     &nbsp;here
                                 </a>
                             </span>
@@ -52,7 +52,7 @@ export default function Home() {
                         <h3 className="text-2xl md:text-3xl dark:text-white font-semibold mt-10">
                             Socials
                         </h3>
-                        <ul className="mt-5 md:mt-10">
+                        {/* <ul className="mt-5 md:mt-10">
                             <li className="mt-5">
                                 <a
                                     href="https://www.instagram.com/ibrahim.ghasia/"
@@ -85,7 +85,22 @@ export default function Home() {
                                     - Twitter
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
+
+                        <div className="grid grid-cols-4 md:grid-cols-5 mt-10 mr-5 md:mr-0">
+                            <a href="https://twitter.com/IbrahimGhasia">
+                                <img src="/Twitter-Logo.wine.svg" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/ibrahim-ghasia/">
+                                <img src="/LinkedIn-Icon-Logo.wine.svg" />
+                            </a>
+                            <a href="https://www.instagram.com/ibrahim.ghasia/">
+                                <img src="/Instagram-Glyph-Color-Logo.wine.svg" />
+                            </a>
+                            <a href="https://github.com/IbrahimGhasia">
+                                <img src="/GitHub-Logo.wine.svg" />
+                            </a>
+                        </div>
                     </div>
 
                     <div className="md:col-span-6">

@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="bg-gray-200 dark:bg-gray-900">
             <div className="ml-5 md:ml-20 md:mt-20">
-                <div className="text-pink_ pt-10 text-5xl md:text-9xl font-semibold transition-all duration-300">
+                <div className="text-skyblue_ pt-10 text-5xl md:text-9xl font-semibold transition-all duration-300">
                     <Typewriter
                         words={["Experience. "]}
                         loop={0}

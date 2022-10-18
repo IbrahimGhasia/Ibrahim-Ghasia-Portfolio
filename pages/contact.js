@@ -110,35 +110,35 @@ export default function Home() {
 
                     <form ref={form} onSubmit={sendEmail} className="mx-auto">
                         <div className="mr-5 mt-20 border-0 rounded-2xl border-gray-300 p-5 md:p-10 shadow-2xl bg-gray-200 dark:bg-gray-300">
-                            <div class="relative z-0 mt-3">
+                            <div className="relative z-0 mt-3">
                                 <input
                                     type="text"
                                     id="name"
-                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    className="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_name"
                                     required
                                 />
                                 <label
-                                    for="name"
-                                    class="absolute text-sm text-gray-500 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                                    htmlFor="name"
+                                    className="absolute text-sm text-gray-500 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                 >
                                     Name
                                 </label>
                             </div>
 
-                            <div class="relative z-0 mt-3">
+                            <div className="relative z-0 mt-3">
                                 <input
                                     type="email"
                                     id="email"
-                                    class="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    className="block py-2.5 px-0 w-72 md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-800 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     placeholder=" "
                                     name="user_email"
                                     required
                                 />
                                 <label
-                                    for="email"
-                                    class="absolute text-sm text-gray-500 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                                    htmlFor="email"
+                                    className="absolute text-sm text-gray-500 dark:text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                                 >
                                     Email
                                 </label>
@@ -146,15 +146,15 @@ export default function Home() {
 
                             <div className="mt-10">
                                 <label
-                                    for="message"
-                                    class="block mb-2 text-sm text-gray-500 dark:text-gray-900"
+                                    htmlFor="message"
+                                    className="block mb-2 text-sm text-gray-500 dark:text-gray-900"
                                 >
                                     Your message
                                 </label>
                                 <textarea
                                     id="message"
                                     rows="4"
-                                    class="block p-2.5 w-72 md:w-96 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    className="block p-2.5 w-72 md:w-96 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-dark-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                     placeholder="Your message..."
                                     name="message"
                                     required
@@ -165,10 +165,10 @@ export default function Home() {
                                 <button
                                     type="submit"
                                     value="Send"
-                                    class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
+                                    className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
                                     onClick={notify}
                                 >
-                                    <span class="relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                    <span className="relative px-5 py-2.5 transition-all ease-in duration-300 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                                         Send Mail
                                     </span>
                                 </button>
