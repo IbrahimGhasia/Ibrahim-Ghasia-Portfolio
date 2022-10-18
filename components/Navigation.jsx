@@ -75,7 +75,7 @@ const Navigation = () => {
                                 navbar ? "block" : "hidden"
                             }`}
                         >
-                            <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
+                            <ul className="items-center justify-center space-y-6 md:flex md:space-x-12 md:space-y-0">
                                 <li>
                                     <Link href="/about">
                                         <a

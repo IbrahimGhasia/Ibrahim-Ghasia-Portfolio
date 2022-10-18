@@ -35,7 +35,7 @@ export default function Home() {
                     <p className="text-lg mb-2 ml-3 text-skyblue_ font-medium">That's Me ⤵️</p>
                     <img
                         src="/MyPic.jpg"
-                        className="h-96 w-80 rounded-2xl border-2 border-gray-400 dark:border-gray-700 p-3"
+                        className="h-96 w-80 mb-10 md:mb-0 rounded-2xl border-2 border-gray-400 dark:border-gray-700 p-3"
                     />
                 </div>
             </div>
