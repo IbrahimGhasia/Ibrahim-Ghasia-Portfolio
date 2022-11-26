@@ -1,5 +1,5 @@
 import Card from "../components/UI/Card"
-import { Typewriter } from "react-simple-typewriter"
+import {Typewriter} from "react-simple-typewriter"
 
 export default function Home() {
     return (
@@ -35,6 +35,16 @@ export default function Home() {
                     title="Decentralized Lottery"
                     img_source="/lottery.webp"
                     link="https://wispy-snow-6604.on.fleek.co/"
+                />
+                <Card
+                    title="Bio-Metric Payment"
+                    img_source="/Biometric_Payment.jpg"
+                    link="#"
+                />
+                <Card
+                    title="Airline Ticket Booking"
+                    img_source="/img.png"
+                    link="#"
                 />
                 <Card
                     title="Z.A.Engineers"

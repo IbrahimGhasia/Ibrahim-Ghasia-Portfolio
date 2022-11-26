@@ -52,40 +52,6 @@ export default function Home() {
                         <h3 className="text-2xl md:text-3xl dark:text-white font-semibold mt-10">
                             Socials
                         </h3>
-                        {/* <ul className="mt-5 md:mt-10">
-                            <li className="mt-5">
-                                <a
-                                    href="https://www.instagram.com/ibrahim.ghasia/"
-                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
-                                >
-                                    - Instagram
-                                </a>
-                            </li>
-                            <li className="mt-5">
-                                <a
-                                    href="https://www.linkedin.com/in/ibrahim-ghasia/"
-                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
-                                >
-                                    - LinkedIn
-                                </a>
-                            </li>
-                            <li className="mt-5">
-                                <a
-                                    href="https://github.com/IbrahimGhasia"
-                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
-                                >
-                                    - Github
-                                </a>
-                            </li>
-                            <li className="mt-5">
-                                <a
-                                    href="https://twitter.com/IbrahimGhasia"
-                                    className="md:text-xl font-semibold dark:text-white cursor-pointer duration-100 hover:text-skyblue_ dark:hover:text-yellow_"
-                                >
-                                    - Twitter
-                                </a>
-                            </li>
-                        </ul> */}
 
                         <div className="grid grid-cols-4 md:grid-cols-5 mt-10 mr-5 md:mr-0">
                             <a href="https://twitter.com/IbrahimGhasia">
@@ -113,8 +79,8 @@ export default function Home() {
                         </p>
 
                         <div>
-                            <h2 className="text-2xl md:text-4xl dark:text-white font-semibold mt-10 ml-5 md:ml-10">
-                                <span className="bg-yellow_ dark:bg-skyblue_ rounded-lg px-5">
+                            <h2 className="text-2xl md:text-4xl text-white dark:text-white font-semibold mt-10 ml-5 md:ml-10">
+                                <span className="bg-pink_ dark:bg-skyblue_ rounded-lg px-5">
                                     Tech Stack
                                 </span>
                             </h2>

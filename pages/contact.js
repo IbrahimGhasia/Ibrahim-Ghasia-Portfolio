@@ -66,7 +66,7 @@ export default function Home() {
                     />
                 </div>
 
-                <div className="grid md:grid-cols-2 pb-20">
+                <div className="grid md:grid-cols-2 pb-20 px-2">
                     <div className="mt-10 md:mt-20">
                         <h1 className="text-3xl md:text-5xl dark:text-green_ text-semibold">
                             Get in touch, lets talk.
