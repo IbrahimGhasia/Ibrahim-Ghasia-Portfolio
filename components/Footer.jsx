@@ -6,7 +6,7 @@ const Footer = () => {
                     © 2022 Ibrahim Ghasia. All Rights Reserved.
                 </span>
 
-                <div className="ml-5 flex mt-4 space-x-6 md:justify-center md:mt-0">
+                <div className="ml-5 flex mt-4 space-x-6 md:justify-center md:mt-6">
                     <a
                         href="https://www.instagram.com/ibrahim.ghasia/"
                         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
