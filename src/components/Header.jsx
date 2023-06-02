@@ -59,7 +59,9 @@ export default function Header() {
 							</Link>
 						))}
 						<button className="border border-emerald-400 p-2 rounded-md hover:text-emerald-400 hover:border-b-4 hover:border-r-4 duration-300">
-							Resume
+							<a href="/Ibrahim-Ghasia-Resume-May23.pdf" download>
+								Resume
+							</a>
 						</button>
 					</ul>
 				</div>
@@ -72,7 +74,7 @@ export default function Header() {
 						)}
 					</button>
 					{openModal && (
-						<div className="absolute border-t-2 border-l-2 border-b-2 border-emerald-300 w-72 rounded-l-2xl top-24 right-0 bg-sky-900">
+						<div className="absolute w-72 rounded-l-2xl top-24 right-0 bg-sky-900">
 							<ul className="mx-16 h-full my-20 text-center text-gray-200 text-lg">
 								{navLinks.map((link, index) => (
 									<Link to={link.path} key={index}>
@@ -103,31 +105,51 @@ export default function Header() {
 			<div className="hidden md:block fixed md:top-48 left-2 md:left-10 h-screen">
 				<div className="flex flex-col gap-y-5 space-y-4 justify-center items-center">
 					<div className="border-l h-20 border-gray-300"></div>
-					<a href="#home">
+					<a
+						href="https://github.com/IbrahimGhasia"
+						rel="noreferrer"
+						target="_blank"
+					>
 						<IconBrandGithub
 							className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 							size={32}
 						/>
 					</a>
-					<a href="#home">
+					<a
+						href="https://www.linkedin.com/in/ibrahim-ghasia/"
+						rel="noreferrer"
+						target="_blank"
+					>
 						<IconBrandLinkedin
 							className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 							size={32}
 						/>
 					</a>
-					<a href="#home">
+					<a
+						href="https://twitter.com/IbrahimGhasia"
+						rel="noreferrer"
+						target="_blank"
+					>
 						<IconBrandTwitter
 							className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 							size={32}
 						/>
 					</a>
-					<a href="#home">
+					<a
+						href="https://www.instagram.com/ibrahim.ghasia/"
+						rel="noreferrer"
+						target="_blank"
+					>
 						<IconBrandInstagram
 							className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 							size={32}
 						/>
 					</a>
-					<a href="#home">
+					<a
+						href="https://www.youtube.com/channel/UCSmj_8olZc2e1x6VihpTobA"
+						rel="noreferrer"
+						target="_blank"
+					>
 						<IconBrandYoutube
 							className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 							size={32}
@@ -137,11 +159,16 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div className="hidden md:block fixed top-96 mt-32 right-0 h-screen">
+			<div className="hidden md:block fixed top-96 -right-10 h-screen">
 				<div className="flex flex-col gap-y-5 space-y-4 justify-center items-center">
-					<p className="rotate-90 text-lg text-gray-300 hover:text-emerald-400 duration-300 mb-20 cursor-pointer">
+					<a
+						href="mailto:ibrahim.ghasia@gmail.com"
+						rel="noreferrer"
+						target="_blank"
+						className="rotate-90 text-lg text-gray-300 hover:text-emerald-400 duration-300 mb-20 cursor-pointer"
+					>
 						ibrahim.ghasia@gmail.com
-					</p>
+					</a>
 					<div className="border-l h-96 border-gray-300"></div>
 				</div>
 			</div>

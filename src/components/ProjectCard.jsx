@@ -44,10 +44,10 @@ export default function ProjectCard({ project }) {
                     ${project.reverse ? "justify-start" : "justify-end"}`}
 				>
 					<li>
-						<IconBrandGithub className="text-gray-300 cursor-pointer" />
+						<IconBrandGithub className="text-gray-300 hover:text-emerald-400 cursor-pointer duration-300" />
 					</li>
 					<li>
-						<IconLogin className="text-gray-300 cursor-pointer" />
+						<IconLogin className="text-gray-300  hover:text-emerald-400 cursor-pointer duration-300" />
 					</li>
 				</ul>
 			</div>

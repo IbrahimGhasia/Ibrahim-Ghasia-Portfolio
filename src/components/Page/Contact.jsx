@@ -25,37 +25,62 @@ export default function Contact() {
 					hi, I{"'"}ll try my best to get back to you!
 				</p>
 
-				<button className="mt-5 border text-lg border-gray-300 p-5 rounded-md text-gray-300 hover:text-emerald-400 hover:border-emerald-400 hover:border-b-8 hover:border-l-4 hover:shadow-lg hover:shadow-sky-900 duration-300">
+				<a
+					href="mailto:ibrahim.ghasia@gmail.com"
+					rel="noreferrer"
+					target="_blank"
+					className="mt-5 border text-lg border-gray-300 p-5 rounded-md text-gray-300 hover:text-emerald-400 hover:border-emerald-400 hover:border-b-8 hover:border-l-4 hover:shadow-lg hover:shadow-sky-900 duration-300"
+				>
 					Say Hello
-				</button>
+				</a>
 
 				<div className="md:hidden mt-10">
 					<div className="flex gap-x-5 justify-center items-center">
-						<a href="#home">
+						<a
+							href="https://github.com/IbrahimGhasia"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<IconBrandGithub
 								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 								size={32}
 							/>
 						</a>
-						<a href="#home">
+						<a
+							href="https://www.linkedin.com/in/ibrahim-ghasia/"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<IconBrandLinkedin
 								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 								size={32}
 							/>
 						</a>
-						<a href="#home">
+						<a
+							href="https://twitter.com/IbrahimGhasia"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<IconBrandTwitter
 								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 								size={32}
 							/>
 						</a>
-						<a href="#home">
+						<a
+							href="https://www.instagram.com/ibrahim.ghasia/"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<IconBrandInstagram
 								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 								size={32}
 							/>
 						</a>
-						<a href="#home">
+						<a
+							href="https://www.youtube.com/channel/UCSmj_8olZc2e1x6VihpTobA"
+							rel="noreferrer"
+							target="_blank"
+						>
 							<IconBrandYoutube
 								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 duration-300"
 								size={32}
@@ -63,9 +88,14 @@ export default function Contact() {
 						</a>
 					</div>
 
-					<p className="mt-5 text-emerald-400 border-b text-md tracking-widest">
+					<a
+						href="mailto:ibrahim.ghasia@gmail.com"
+						rel="noreferrer"
+						target="_blank"
+						className="mt-5 text-emerald-400 border-b text-md tracking-widest"
+					>
 						ibrahim.ghasia@gmail.com
-					</p>
+					</a>
 				</div>
 			</div>
 		</PageTransition>
