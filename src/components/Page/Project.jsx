@@ -1,3 +1,4 @@
+import OtherProjectCard from "../OtherProjectCard";
 import PageTransition from "../PageTransition";
 import ProjectCard from "../ProjectCard";
 
@@ -53,6 +54,57 @@ const projects = [
 	},
 ];
 
+const otherProjects = [
+	{
+		title: "GO Bookstore",
+		description:
+			"This project aims to provide a simple and efficient way to manage a Book store, allowing you to add, update, delete, and view Books using a RESTful API.",
+		technologies: ["Go Lang", "MySQL", "Gorilla Mux"],
+		github: "https://github.com/IbrahimGhasia/GO-Bookstore",
+		demo: "",
+	},
+	{
+		title: "GO Movies",
+		description:
+			"This project is a CRUD backend for movies written in Go language. It provides endpoints to add, update, delete, and view all movies.",
+		technologies: ["Go Lang", "MySQL", "Gorilla Mux"],
+		github: "https://github.com/IbrahimGhasia/Go-Movies",
+		demo: "",
+	},
+	{
+		title: "Postify",
+		description:
+			"It is a simple web API that allows users to register and create posts.",
+		technologies: ["Node Js", "Express Js", "MySQL"],
+		github: "https://github.com/IbrahimGhasia/Postify-Web3Knights-Assignment",
+		demo: "",
+	},
+	{
+		title: "Data Structures and Algorithms",
+		description:
+			"This repository contains all the DSA problems I have solved.",
+		technologies: ["Java"],
+		github: "https://github.com/IbrahimGhasia/DSA",
+		demo: "",
+	},
+	{
+		title: "Dashboard 1",
+		description:
+			"A simple dashboard built using React Js and Tailwind CSS.",
+		technologies: ["React Js", "Tailwind CSS"],
+		github: "https://github.com/IbrahimGhasia/Web3Knights-Dashboard",
+		demo: "https://web3-knights-dashboard.vercel.app/",
+	},
+	{
+		title: "Dashboard 2",
+		description:
+			"A simple dashboard built using React Js and Tailwind CSS.",
+		technologies: ["React Js", "Tailwind CSS"],
+		github: "https://github.com/IbrahimGhasia/Web3Knights-Dashboard-2",
+		demo: "https://web3-knights-dashboard-2.vercel.app/",
+	},
+];
+
 export default function Project() {
 	return (
 		<PageTransition>
@@ -68,6 +120,17 @@ export default function Project() {
 					{projects.map((project, index) => (
 						<ProjectCard key={index} project={project} />
 					))}
+				</div>
+
+				<div className="md:mt-20 md:mx-20">
+					<h1 className="text-gray-300 text-center text-2xl md:text-3xl font-semibold mb-10">
+						Other Noteworthy Projects
+					</h1>
+					<div className="grid md:grid-cols-3 gap-x-3 gap-y-5">
+						{otherProjects.map((project, index) => (
+							<OtherProjectCard key={index} project={project} />
+						))}
+					</div>
 				</div>
 			</div>
 		</PageTransition>

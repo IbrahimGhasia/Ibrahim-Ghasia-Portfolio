@@ -165,7 +165,7 @@ export default function Header() {
 						href="mailto:ibrahim.ghasia@gmail.com"
 						rel="noreferrer"
 						target="_blank"
-						className="rotate-90 text-lg text-gray-300 hover:text-emerald-400 duration-300 mb-20 cursor-pointer"
+						className="rotate-90 text-lg text-gray-300 hover:text-emerald-400 duration-300 mb-20 cursor-pointer hover:translate-y-2"
 					>
 						ibrahim.ghasia@gmail.com
 					</a>
