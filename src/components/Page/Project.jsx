@@ -9,7 +9,7 @@ export default function Project() {
 		<PageTransition>
 			<div className="flex flex-col justify-center mt-20 pb-10">
 				<div className="flex items-center">
-					<p className="text-gray-300 text-3xl font-semibold">
+					<p className="text-gray-300 text-2xl md:text-3xl font-semibold">
 						<span className="text-emerald-400 mr-2">03.</span>
 						Something{"'"}s that I{"'"}ve Built
 					</p>

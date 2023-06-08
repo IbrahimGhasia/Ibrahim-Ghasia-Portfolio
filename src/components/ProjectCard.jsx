@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
 			}
 			} gap-10 items-center mb-10`}
 		>
-			<div>
+			<div className="group">
 				<img
 					className="h-auto max-w-xs pr-10 md:pr-0 md:max-w-xl transition-all duration-500 rounded-lg cursor-pointer filter md:grayscale md:hover:grayscale-0"
 					src={project.image}
@@ -43,12 +43,31 @@ export default function ProjectCard({ project }) {
 					className={`mt-2 flex flex-wrap gap-5
                     ${project.reverse ? "justify-start" : "justify-end"}`}
 				>
-					<li>
-						<IconBrandGithub className="text-gray-300 hover:text-emerald-400 cursor-pointer duration-300" />
-					</li>
-					<li>
-						<IconLogin className="text-gray-300  hover:text-emerald-400 cursor-pointer duration-300" />
-					</li>
+					{project.github && (
+						<a
+							href={project.github}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<IconBrandGithub
+								className="text-gray-300 hover:text-emerald-400 hover:translate-y-1 cursor-pointer duration-300"
+								size={28}
+							/>
+						</a>
+					)}
+
+					{project.demo && (
+						<a
+							href={project.github}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<IconLogin
+								className="text-gray-300  hover:text-emerald-400 hover:translate-y-1 cursor-pointer duration-300"
+								size={28}
+							/>
+						</a>
+					)}
 				</ul>
 			</div>
 		</div>

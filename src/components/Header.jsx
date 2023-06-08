@@ -16,7 +16,7 @@ export default function Header() {
 	const [openModal, setOpenModal] = useState(false);
 
 	return (
-		<div className="md:sticky top-0">
+		<div className="top-0">
 			<div className="py-5 px-10 flex justify-between items-center">
 				<Button text={"IB."} link={"/"} />
 				<div>

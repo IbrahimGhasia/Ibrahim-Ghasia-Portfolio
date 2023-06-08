@@ -19,7 +19,7 @@ export default function AboutMe() {
 		<PageTransition>
 			<div className="flex flex-col justify-center md:h-screen md:-mt-20 mt-20">
 				<div className="flex items-center">
-					<p className="text-gray-300 text-3xl font-semibold">
+					<p className="text-gray-300 text-2xl md:text-3xl font-semibold">
 						<span className="text-emerald-400 mr-2">01.</span>About
 						Me
 					</p>
@@ -28,32 +28,35 @@ export default function AboutMe() {
 
 				<div className="mt-10 grid md:grid-cols-2 gap-5">
 					<div>
-						<p className="text-md text-justify text-gray-300">
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptas, reprehenderit! Obcaecati, ipsa.
-							Eveniet, voluptas? Praesentium voluptatibus odio
-							repellendus eveniet amet culpa tenetur fugiat! A
-							voluptas fugiat provident excepturi sit laborum?
-							Quaerat architecto dolor tenetur voluptas iusto
-							tempora animi suscipit iste quae, sed debitis ea sit
-							earum distinctio doloribus odio nulla! Impedit, qui
-							optio? Officiis placeat harum aliquid consectetur
-							molestiae illo! Eos illum, quam quas ducimus dolore
-							nemo veritatis iste. Hic quia provident tempora
-							sapiente beatae, exercitationem, iste illo maiores
-							aliquam vel nisi non maxime. Dolore voluptate ab
-							esse fuga officia? Alias molestias beatae in
-							quibusdam sapiente.
+						<p className="text-sm md:text-md text-justify text-gray-300">
+							I am a passionate software developer with a diverse
+							skill set. I am interested in Blockchain and Web3
+							development, I also have a strong background in web
+							development. I am proficient in various web
+							technologies and frameworks, allowing me to create
+							dynamic and engaging user experiences. Additionally,
+							I am constantly expanding my knowledge and honing my
+							skills. I am currently learning the Go programming
+							language. My dedication to continuous learning and
+							innovation drives me to stay at the forefront of
+							technology and deliver exceptional results. When I
+							{"'"}m not coding, you can find me indulging in my
+							love for music or spending time watching airplane
+							videos. I am driven by curiosity and a desire to
+							create meaningful solutions that make a positive
+							impact.
 						</p>
 
-						<h4 className="text-2xl mt-5 text-gray-300">Skills</h4>
+						<h4 className="text-lg md:text-2xl mt-5 text-gray-300">
+							Skills
+						</h4>
 						<hr className="border-gray-300 w-full" />
 						<div className="mt-3 md:mr-32">
 							<ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
 								{skills.map((skill, index) => (
 									<li
 										key={index}
-										className="flex items-center gap-2 text-gray-300"
+										className="flex items-center gap-2 text-gray-300 text-sm md:text-md"
 									>
 										<img
 											src="right-arrow.svg"

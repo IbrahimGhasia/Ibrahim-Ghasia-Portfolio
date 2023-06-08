@@ -14,6 +14,8 @@ const projects = [
 			"Valist",
 		],
 		reverse: false,
+		github: "https://github.com/Suhel-Kap/dUni",
+		demo: "https://bafybeiava433h44etdhf4ulv34hgfz42pol6gveftiyzinbwrd6qmw4zri.ipfs.gateway.valist.io/",
 	},
 	{
 		title: "dClinic (Decentralized Clinic)",
@@ -31,6 +33,8 @@ const projects = [
 			"The Graph",
 		],
 		reverse: true,
+		github: "https://github.com/IbrahimGhasia/d-clinic",
+		demo: "https://d-clinic.vercel.app/",
 	},
 	{
 		title: "CheckInn.com",
@@ -45,6 +49,8 @@ const projects = [
 			"Tailwind CSS",
 		],
 		reverse: false,
+		github: "https://github.com/IbrahimGhasia/WP_Mini_Project",
+		demo: "",
 	},
 ];
 

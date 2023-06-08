@@ -7,7 +7,7 @@ export default function Certificate() {
 		<PageTransition>
 			<div className="flex flex-col justify-center mt-20">
 				<div className="flex items-center">
-					<p className="text-gray-300 text-3xl font-semibold">
+					<p className="text-gray-300 text-2xl md:text-3xl font-semibold">
 						<span className="text-emerald-400 mr-2">04.</span>
 						Certifications
 					</p>
