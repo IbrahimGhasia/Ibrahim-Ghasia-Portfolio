@@ -1,26 +1,8 @@
 import CertificateCard from "../CertificateCard";
 import PageTransition from "../PageTransition";
+import certificates from "../../../utils/certificates";
 
 export default function Certificate() {
-	const certificates = [
-		{
-			name: "The Web Developer Bootcamp",
-			image: "/WebDev.webp",
-		},
-		{
-			name: "Google Developer Student Club, SCET",
-			image: "/GDSC_Lead_Certi_1.webp",
-		},
-		{
-			name: "30 days of Google Clound Program",
-			image: "/Cloud.webp",
-		},
-		{
-			name: "AIESEC, India",
-			image: "/AIESEC.webp",
-		},
-	];
-
 	return (
 		<PageTransition>
 			<div className="flex flex-col justify-center mt-20">

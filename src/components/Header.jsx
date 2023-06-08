@@ -10,36 +10,9 @@ import {
 	IconX,
 } from "@tabler/icons-react";
 import { useState } from "react";
+import navLinks from "../../utils/navLinks";
 
 export default function Header() {
-	const navLinks = [
-		{
-			label: "About",
-			path: "/about",
-			index: "01. ",
-		},
-		{
-			label: "Experience",
-			path: "/experience",
-			index: "02. ",
-		},
-		{
-			label: "Project",
-			path: "/project",
-			index: "03. ",
-		},
-		{
-			label: "Certificate",
-			path: "/certificate",
-			index: "04. ",
-		},
-		{
-			label: "Contact",
-			path: "/contact",
-			index: "05. ",
-		},
-	];
-
 	const [openModal, setOpenModal] = useState(false);
 
 	return (
