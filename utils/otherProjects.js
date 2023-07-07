@@ -47,6 +47,13 @@ const otherProjects = [
 		github: "https://github.com/IbrahimGhasia/Web3Knights-Dashboard-2",
 		demo: "https://web3-knights-dashboard-2.vercel.app/",
 	},
+	{
+		title: "Lens Social",
+		description:
+			"A social platform created using Lens API. It allows the user to follow, un-follow, post and comment.",
+		technologies: ["Next Js", "Lens API", "Tailwind CSS"],
+		github: "https://github.com/IbrahimGhasia/lens-social",
+	},
 ];
 
 export default otherProjects;
