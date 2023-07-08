@@ -17,7 +17,7 @@ export default function AboutMe() {
 
 	return (
 		<PageTransition>
-			<div className="flex flex-col justify-center md:h-screen md:-mt-20 mt-20">
+			<div className="flex flex-col justify-center md:h-screen mt-20">
 				<div className="flex items-center">
 					<p className="text-gray-300 text-2xl md:text-3xl font-semibold">
 						<span className="text-emerald-400 mr-2">01.</span>About
@@ -28,7 +28,7 @@ export default function AboutMe() {
 
 				<div className="mt-10 grid md:grid-cols-2 gap-5">
 					<div>
-						<p className="text-sm md:text-md text-justify text-gray-300">
+						<p className="text-sm md:text-lg text-justify text-gray-300">
 							I am a passionate software developer with a diverse
 							skill set. I am interested in Blockchain and Web3
 							development, I also have a strong background in web
@@ -56,7 +56,7 @@ export default function AboutMe() {
 								{skills.map((skill, index) => (
 									<li
 										key={index}
-										className="flex items-center gap-2 text-gray-300 text-sm md:text-md"
+										className="flex items-center gap-2 text-gray-300 text-sm md:text-md cursor-pointer"
 									>
 										<img
 											src="right-arrow.svg"

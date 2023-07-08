@@ -27,7 +27,7 @@ export default function Header() {
 									<span className="text-emerald-400 mr-1">
 										{link.index}
 									</span>
-									{link.label}
+									<span>{link.label}</span>
 								</li>
 							</Link>
 						))}

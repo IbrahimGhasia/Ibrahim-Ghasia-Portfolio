@@ -27,7 +27,7 @@ export default function ProjectCard({ project }) {
 				<h3 className="text-gray-300 text-xl md:text-4xl font-semibold">
 					{project.title}
 				</h3>
-				<p className="bg-sky-800 text-sm md:text-md rounded-lg p-5 mt-3 text-gray-300">
+				<p className="bg-sky-800 text-sm md:text-lg rounded-lg p-5 mt-3 text-gray-300">
 					{project.description}
 				</p>
 				<ul
@@ -36,7 +36,9 @@ export default function ProjectCard({ project }) {
 					}`}
 				>
 					{project.technologies.map((technology, index) => (
-						<li key={index}>{technology}</li>
+						<li key={index} className="md:text-lg cursor-pointer">
+							{technology}
+						</li>
 					))}
 				</ul>
 				<ul
