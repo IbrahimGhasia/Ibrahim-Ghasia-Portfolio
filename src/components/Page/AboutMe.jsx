@@ -7,6 +7,7 @@ export default function AboutMe() {
 		"TypeScript",
 		"Go Lang",
 		"Java",
+		"PHP",
 		"MySQL",
 		"MongoDB",
 		"React.js",
@@ -14,10 +15,9 @@ export default function AboutMe() {
 		"Node.js",
 		"Hardhat",
 	];
-
 	return (
 		<PageTransition>
-			<div className="flex flex-col justify-center md:h-screen mt-20">
+			<div className="flex flex-col justify-center md:h-screen">
 				<div className="flex items-center">
 					<p className="text-gray-300 text-2xl md:text-3xl font-semibold">
 						<span className="text-emerald-400 mr-2">01.</span>About

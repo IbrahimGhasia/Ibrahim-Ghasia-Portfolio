@@ -8,6 +8,10 @@ const certificates = [
 		image: "/GDSC_Lead_Certi_1.webp",
 	},
 	{
+		name: "Term Completion Certificate, GDSC SCET",
+		image: "/gdsc_term_completion.webp",
+	},
+	{
 		name: "30 days of Google Clound Program",
 		image: "/Cloud.webp",
 	},
