@@ -10,7 +10,7 @@ import Contact from "./components/Page/Contact";
 
 function App() {
 	return (
-		<div className="bg-sky-950">
+		<div className="bg-[#0a192f]">
 			<Layout>
 				<Routes>
 					<Route path="/" element={<Index />} />

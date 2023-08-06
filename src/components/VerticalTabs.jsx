@@ -9,13 +9,13 @@ const VerticalTabs = () => {
 
 	return (
 		<div className="flex items-center">
-			<div className="md:w-1/4 bg-sky-950">
+			<div className="md:w-1/4 bg-[#0a192f]">
 				<nav>
 					<ul>
 						<li
-							className={`p-2 cursor-pointer hover:bg-sky-900 hover:text-emerald-400 border-l-2 ${
+							className={`p-2 rounded-r-2xl cursor-pointer hover:bg-sky-950 hover:text-emerald-400 border-l-2 ${
 								activeTab === 1
-									? "bg-sky-900 text-emerald-400 border-l-2 border-emerald-400 duration-300"
+									? "bg-sky-950 text-emerald-400 border-l-2 border-emerald-400 duration-300"
 									: "text-gray-300"
 							}`}
 							onClick={() => handleTabClick(1)}
@@ -29,9 +29,9 @@ const VerticalTabs = () => {
 						</li>
 
 						<li
-							className={`p-2 cursor-pointer hover:bg-sky-900 hover:text-emerald-400 border-l-2 ${
+							className={`p-2 rounded-r-2xl cursor-pointer hover:bg-sky-950 hover:text-emerald-400 border-l-2 ${
 								activeTab === 2
-									? "bg-sky-900 text-emerald-400 border-l-2 border-emerald-400 duration-300"
+									? "bg-sky-950 text-emerald-400 border-l-2 border-emerald-400 duration-300"
 									: "text-gray-300"
 							}`}
 							onClick={() => handleTabClick(2)}
@@ -44,9 +44,9 @@ const VerticalTabs = () => {
 							</a>
 						</li>
 						<li
-							className={`p-2 cursor-pointer hover:bg-sky-900 hover:text-emerald-400 border-l-2 ${
+							className={`p-2 rounded-r-2xl cursor-pointer hover:bg-sky-950 hover:text-emerald-400 border-l-2 ${
 								activeTab === 3
-									? "bg-sky-900 text-emerald-400 border-l-2 border-emerald-400 duration-300"
+									? "bg-sky-950 text-emerald-400 border-l-2 border-emerald-400 duration-300"
 									: "text-gray-300"
 							}`}
 							onClick={() => handleTabClick(3)}
@@ -61,7 +61,7 @@ const VerticalTabs = () => {
 					</ul>
 				</nav>
 			</div>
-			<div className="ml-2 md:ml-10 md:w-3/4 bg-sky-950">
+			<div className="ml-2 md:ml-10 md:w-3/4 bg-sky-950 rounded-2xl p-5">
 				<div className="p-2">
 					{activeTab === 1 && (
 						<div id="tab1">

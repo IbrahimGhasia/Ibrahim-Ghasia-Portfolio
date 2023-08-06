@@ -3,7 +3,7 @@ import { IconBrandGithub, IconFolder, IconLogin } from "@tabler/icons-react";
 
 export default function OtherProjectCard({ project }) {
 	return (
-		<div className="bg-sky-900 hover:translate-y-2 duration-300 p-5 rounded-lg h-72 md:h-80">
+		<div className="bg-sky-950 hover:translate-y-2 duration-300 p-5 rounded-lg h-72 md:h-80">
 			<div className="flex justify-between items-center">
 				<IconFolder className="text-emerald-400" size={54} />
 				<div className="flex gap-2">
